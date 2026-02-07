@@ -1,9 +1,11 @@
 import time
 
 lyrics = [
-    ("Hello from the other side", 2),
-    ("I must have called a thousand times", 3),
-    ("To tell you I'm sorry", 2)
+    ("Hamuwuwado Lyrics 🎵:")
+    ("Sonduree Hadak Nathi Kaluwara Yameee", 2),
+    ("Danune Nubath Nathi Aduwada Aye Paraaa", 2),
+    ("Nuba Na Ahan nathi Hadawatha Mageee", 1)
+    ("Huru Na Hithath Hri Kalabala Wagee", 2)
 ]
 
 for line, wait_time in lyrics:
