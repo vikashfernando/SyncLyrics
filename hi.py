@@ -1,11 +1,22 @@
 import time
 
+
 lyrics = [
-    ("Hello from the other side", 2),
-    ("I must have called a thousand times", 3),
-    ("To tell you I'm sorry", 2)
+    ("Hamuwuwado Lyrics 🎵:", 1),
+    ("Sonduree Hadak Nathi Kaluwara Yameee", 2),
+    ("Danune Nubath Nathi Aduwada Aye Paraaa", 2),
+    ("Nuba Na Ahan Nathi Hadawatha Mageee", 2),
+    ("Huru Na Hithath Hri Kalabala Wagee........", 2)
 ]
 
-for line, wait_time in lyrics:
-    print(line)
-    time.sleep(wait_time)
+
+def print_letter_by_letter(text, speed=0.09): 
+    for letter in text:
+        print(letter, end="", flush=True)
+        time.sleep(speed)
+    print()  
+
+
+for line, pause in lyrics:
+    print_letter_by_letter(line)
+    time.sleep(pause)  
